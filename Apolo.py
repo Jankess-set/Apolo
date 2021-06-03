@@ -199,8 +199,8 @@ def response7():
     print("""
 \033[1;31mCrédits\033[0;0m
 
-\033[1;32mmastermind:\033[0;0m \033[1;34mYankees\033[0;0m
-\033[1;32mcreator\033[0;0m \033[1;34mYankees\033[0;0m
+\033[1;32mmastermind:\033[0;0m \033[1;34mJankees\033[0;0m
+\033[1;32mcreator\033[0;0m \033[1;34mJankees\033[0;0m
 \033[1;32mcybersecurity creator\033[0;0m \033[1;34mSasuke\033[0;0m
     """)
 

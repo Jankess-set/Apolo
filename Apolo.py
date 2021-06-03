@@ -88,7 +88,7 @@ def atk2():
 
     if len(ip) != 7:
         print('''
-        A quantidade digitada não corresponde!
+        Error 
         ''')
         exit()
 
@@ -97,7 +97,7 @@ def atk2():
     address_data = response.json()
 
     if 'erro' not in address_data:
-        print(' ===> IP ENCONTRADO <=== ')
+        print(' ===> IP FOUND <=== ')
 
         print('\033[1;32mip:\033[0;0m \033[1;33m{}\033[0;0m'.format(address_data['ip']))
         print("\033[1;32msucess:\033[0;0m \033[1;33m{}\033[0;0m".format(address_data['success']))
@@ -109,6 +109,7 @@ def atk2():
         print("\033[1;32mcountry flag:\033[0;0m \033[1;33m{}\033[0;0m".format(address_data['country_flag']))
         print("\033[1;32mlat:\033[0;0m \033[1;33m{}\033[0;0m".format(address_data['latitude']))
         print("\033[1;32mlon:\033[0;0m \033[1;33m{}\033[0;0m".format(address_data["longitude"]))
+
 
         ret()
 
